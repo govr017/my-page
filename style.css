@@ -10,14 +10,15 @@ body {
     text-align: center;
 }
 .dud {
-    background-color: deeppink;
+    background-color: #09101a;
 }
 .container {
 	width: 80%;
 	margin: 0 auto;
+    color: #293f61;
 }
 nav {
-    float: right;
+    float: none 
 }
   
 nav ul {
@@ -35,4 +36,10 @@ nav li {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
+    color: #293f61;
+}
+nav a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3f6196;
 }
